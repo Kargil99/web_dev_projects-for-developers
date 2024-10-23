@@ -5,7 +5,7 @@ This repository contains a collection of web development projects that showcase 
 ## Projects Included
 - **Login Page**: A responsive login form with modern design, gradient backgrounds, and hover effects.
   - Technologies: HTML, CSS
-  - [Project Link](path-to-your-login-page-project)
+  - [Project Link]([path-to-your-login-page-project](https://github.com/Kargil99/web_dev_projects-for-developers/blob/main/Login_Page%20using%20HTML%20and%20CSS))
 
 *More projects will be added as development progresses!*
 
