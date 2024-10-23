@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign-up Page</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: #2f4f4f; /* Dark greenish background */
+            margin: 0;
+            padding: 0;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .card {
+            background-color: #26d338; /* Light greenish card */
+            border-radius: 8px;
+            padding: 30px;
+            width: 300px;
+        }
+        h2 {
+            color: #00695c; /* Dark greenish header */
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        form {
+            display: flex;
+            flex-direction: column;
+        }
+        input {
+            /* width: 100px; */
+            margin-bottom: 15px;
+            padding: 10px;
+            border-radius: 5px;
+            border: 1px solid #004d40; /* Dark greenish border */
+            background-color: #c5e1a5; /* Light greenish input */
+        }
+        button {
+            background-color: #00796b; /* Dark greenish button */
+            color: white;
+            padding: 10px;
+            border-radius: 8px;
+        }
+        button:hover {
+            background-color: #004d40; /* Darker greenish hover */
+        }
+    </style>
+</head>
+<body>
+    <div class="card">
+        <h2>Sign Up</h2>
+        <form>
+            <input type="email" placeholder="Email" />
+            <input type="text" placeholder="First Name" />
+            <input type="text" placeholder="Last Name" />
+            <input type="password" placeholder="Password" />
+            <button type="submit">Sign Up</button>
+        </form>
+    </div>
+</body>
+</html>
